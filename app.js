@@ -13,6 +13,7 @@ var app = express();
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'ejs');
 
+// here we setup flash
 // here we need to setup passport below
 
 app.use(logger('dev'));
